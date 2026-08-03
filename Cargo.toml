@@ -26,4 +26,5 @@ testcontainers = { version = "0.27.3", optional = true }
 testcontainers-modules = { version = "0.15.0", features = ["redis", "postgres"], optional = true }
 
 [dev-dependencies]
+cargo-husky = { version = "1.5", default-features = false, features = ["user-hooks"] }
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
