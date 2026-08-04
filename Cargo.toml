@@ -1,12 +1,12 @@
 [package]
 name = "armature-testkit"
 version = "0.1.0"
-edition.workspace = true
-rust-version.workspace = true
-authors.workspace = true
-license.workspace = true
+edition = "2024"
+rust-version = "1.94.1"
+authors = ["Joseph Quinn <quinn.josephr@proton.me>"]
+license = "Apache-2.0"
 repository = "https://github.com/quinnjr/armature-testkit"
-homepage.workspace = true
+homepage = "https://quinnjr.github.io/armature"
 description = "Deterministic test harnesses (HTTP stubs, containers) for the Armature framework"
 publish = false
 
